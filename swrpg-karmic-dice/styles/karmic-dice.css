@@ -1,0 +1,35 @@
+
+/* swrpg-karmic-dice/styles/karmic-dice.css */
+
+.karmic-dice-card {
+  position: relative;
+}
+
+.karmic-dice-details {
+  margin-top: 0.35rem;
+  padding: 0.25rem 0.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.9em;
+}
+
+.karmic-dice-details summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.karmic-dice-changes {
+  margin: 0.25rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.karmic-dice-changes img {
+  vertical-align: middle;
+  height: 18px;
+  width: 18px;
+  margin-right: 0.15rem;
+}
+
+.karmic-original,
+.karmic-adjusted {
+  white-space: nowrap;
+}
